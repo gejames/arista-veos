@@ -1,3 +1,7 @@
 ---
+- name: Arista - Gather Factgs
+  hosts: arista
+  gather_facts: False
+
 - eos_facts:
     gather_subset: all
