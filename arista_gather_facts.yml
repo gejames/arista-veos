@@ -3,6 +3,6 @@
   hosts: arista
   gather_facts: False
 
-  task: 
+  tasks: 
     - eos_facts:
         gather_subset: all
