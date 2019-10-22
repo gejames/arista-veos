@@ -2,6 +2,7 @@
 - name: Arista - Gather Factgs
   hosts: arista
   gather_facts: False
+  connection_type: network_cli
 
   tasks: 
     - eos_facts:
